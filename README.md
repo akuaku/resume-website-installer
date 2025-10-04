@@ -29,14 +29,14 @@ One-command installer for a professional resume website with Strapi CMS backend.
 
 ## 🚀 Quick Install
 
-### Option 1: Direct Download & Run
+### Option 1: Direct Download & Run (Kindly change your installation path, ports in the install.sh) 
 ```bash
 curl -sSL https://raw.githubusercontent.com/akuaku/resume-website-installer/main/install.sh -o install.sh
 chmod +x install.sh
 ./install.sh
 ```
 
-### Option 2: Clone Repository
+### Option 2: Clone Repository (Kindly change your installation path, ports in the install.sh) 
 ```bash
 git clone https://github.com/akuaku/resume-website-installer.git
 cd resume-website-installer
