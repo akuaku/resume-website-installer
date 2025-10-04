@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Si - Home</title>
+
+    <!-- ✅ Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">David<span>Si</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="education.html">Education & Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>David Si</h1>
+            <div class="social-links">
+                <a href="https://x.com/artee_st" class="twitter" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1Amg9RrsQZ/" class="facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://linkedin.com/in/david-soe-a58350177" class="linkedin" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/akuaku" class="github" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <div class="content-wrapper">
+            <div class="profile-section">
+                <img src="" alt="David Soe" class="profile-image" id="profileImage">
+                
+                <div class="about-section">
+                    <h2>About Me</h2>
+                    <div id="aboutContent">
+                        <!-- Content loaded from Strapi -->
+                    </div>
+                </div>
+            </div>
+
+            <aside class="info-sidebar">
+                <div class="info-card">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <strong>Citizenship:</strong>
+                        <span id="citizenship">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Location:</strong>
+                        <span id="location">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Phone:</strong>
+                        <span id="phone">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Email:</strong>
+                        <span id="email">Loading...</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Availability:</strong>
+                        <span id="availability">Loading...</span>
+                    </div>
+		    <div class="info-item">
+			<strong>Download:</strong>
+            <span id="resumeDownload">
+		    <a href="#" id="resumeDownloadBtn" class="resume-download-btn">
+   			 📄 My Resume
+		    </a>
+            </span>
+		    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 David Si. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
